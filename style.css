@@ -1,0 +1,101 @@
+body {
+  
+  border-style: double;
+  border-color: rgb(11, 60, 110);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(247, 244, 244);
+  animation: mymove 6s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: rgb(250, 244, 244);}
+    to {background-color: rgb(197, 197, 197);}
+  }
+
+  
+.btn {
+  background-color: rgba(34, 84, 134, 0.934);
+  box-shadow: 8px 8px 10px rgb(11, 60, 110);
+  text-decoration: underline;
+  text-decoration: #000000;
+  outline: 1px solid rgb(156, 152, 152);
+  outline-offset: 0px;
+  font-family:  Courier New;
+  text-decoration: rgb(11, 60, 110);
+  text-decoration: underline;
+}
+
+
+.input-group {
+  box-shadow: 8px 8px 10px rgb(11, 60, 110);
+  background-color: lightgrey;
+  outline: 1px solid rgb(156, 152, 152);
+  outline-offset: 0px;
+  font-family:  Courier New;
+  caret-color: rgb(0, 17, 255);
+  
+}
+
+p1 {
+  text-align: center;
+  color:rgb(11, 60, 110);
+  text-decoration: rgb(11, 60, 110);
+  text-decoration: underline;
+  display: block;
+  width: 330%;
+  margin-top: 22%;
+  padding: 1px;
+  position: absolute;
+  right: -120%;
+  border: 3px solid rgb(11, 60, 110);
+  border-style: double;
+  box-shadow: 8px 8px 10px rgb(11, 60, 110);
+  font-family:  Courier New;
+  opacity: 0.6;
+  background-color: rgb(255, 255, 255);
+  resize: both;
+  overflow: auto;
+}
+
+ 
+
+.col-xs-4 {
+  width: 300px;
+  
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.bi {
+  cursor: pointer;
+}
+
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;
+    }
+  
+  
+
+   
+   
+
+
+  
+  
+  
+  
+  
